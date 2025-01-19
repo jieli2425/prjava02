@@ -1,0 +1,30 @@
+1.
+a) git branch branca00
+b) git checkout branca00
+c) git branch
+
+5.
+git checkout main
+git status
+git log
+En la branca00 tiene commit que el main no hay, porque no se han mergeado.
+
+6.
+No se puede ver porque la ultima linea añadida no se ha hecho el commit en el main
+
+7. 
+En la branca00 si que es pot veure l'última linia afegida perque es va fer un commit anteriorment.
+
+10b.
+b) git merge branca00
+c) git status
+d) git log main
+
+12.
+a) git push origin main
+c) Solamente se ha actualizado en el main porque al hacer el push solamente actualiza la branca que le dices por eso no se actualiza todo.
+
+14.
+a) git push origin branca01
+c) git log --oneline --graph main..branca01.
+El commit que hay en la branca01 es la "Versió 1.3 del projecte prjava02"
